@@ -50,7 +50,7 @@
                     <div class="card col-lg-3 col-md-4 col-sm-6 ">
                         <h4>Number 1</h4>
                         <img src="images/Tamela.jpg" class="card-img-top" alt="Album by Kirk Frankline">
-                        <div class="card-body">
+                        <div class="card-body details">
                           <h5 class="card-title">Album Title:Best Days</h5>
                           <p class="card-text">Artist:Tamela Mann</p>
                           <p>Genre: Gospel</p>
@@ -62,7 +62,7 @@
                       <div class="card col-lg-3 col-md-4 col-sm-6 ">
                         <h4>Number 2</h4>
                         <img src="images/kirk.jpg" class="card-img-top" alt="Album by Kirk Frankline">
-                        <div class="card-body">
+                        <div class="card-body details">
                           <h5 class="card-title">Album Title:God's Property</h5>
                           <p class="card-text">Artist: By Kirk Frankline</p>
                           <p>Genre: Gospel</p>
@@ -74,7 +74,7 @@
                       <div class="card col-lg-3 col-md-4 col-sm-6 ">
                         <h4>Number 3</h4>
                         <img src="images/Lucky.jpg" class="card-img-top" alt="Cover of House of Exile">
-                        <div class="card-body">
+                        <div class="card-body details">
                           <h5 class="card-title">Album Title: House of Exile</h5>
                           <p class="card-text">Artist: By Lucky Dube.</p>
                           <p>Genre: Reggae</p>
@@ -86,7 +86,7 @@
                       <div class="card col-lg-3 col-md-4 col-sm-6 ">
                         <h4>Number 4</h4>
                         <img src="images/Bob.jpg" class="card-img-top" alt="Cover of Soul Rebel">
-                        <div class="card-body">
+                        <div class="card-body details">
                           <h5 class="card-title">Album title: Soul Rebel</h5>
                           <p class="card-text">Artist: By Bob Marley.</p>
                           <p>Genre: Reggae</p>
@@ -111,28 +111,28 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="images/Bob.jpg" class="d-block w-100" alt="...">
+                        <img src="images/Bob.jpg" class="d-block w-100 imy" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="images/kirk.jpg" class="d-block w-100" alt="...">
+                        <img src="images/kirk.jpg" class="d-block w-100 imy" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="images/Lucky.jpg" class="d-block w-100" alt="...">
+                        <img src="images/Lucky.jpg" class="d-block w-100 imy" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img src="images/Tamela.jpg" class="d-block w-100" alt="...">
+                        <img src="images/Tamela.jpg" class="d-block w-100 imy" alt="...">
                         <div class="carousel-item">
-                            <img src="images/Bob.jpg" class="d-block w-100" alt="...">
+                            <img src="images/Bob.jpg" class="d-block w-100 imy" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="images/Lucky.jpg" class="d-block w-100" alt="...">
+                            <img src="images/Lucky.jpg" class="d-block w-100 imy" alt="...">
                             <div class="carousel-item">
-                                <img src="images/Tamela.jpg.jpg" class="d-block w-100" alt="...">
+                                <img src="images/Tamela.jpg.jpg" class="d-block w-100 imy" alt="...">
                                 <div class="carousel-item">
-                                    <img src="images/kirk.jpg.jpg" class="d-block w-100" alt="...">
+                                    <img src="images/kirk.jpg.jpg" class="d-block w-100 imy" alt="...">
                                   </div>
                                   <div class="carousel-item">
-                                    <img src="images/beyonce.png" class="d-block w-100" alt="...">
+                                    <img src="images/beyonce.png" class="d-block w-100 imy" alt="...">
                                     
                                   </div>
                               </div>
@@ -177,29 +177,78 @@
             </div>
         
                 <div id = "foot "class="row">
-                    <div class="col-sm-6 col">
-                        <footer>
-                            <p>@ copyright 2020</p>
-                        
-                        </footer>
-                    </div>
-                    <div class="col col-sm-6" id = "network">
-                        
+                    <div class=" col-9">
+                      <footer>
+      
+                      <p>@ copyright 2020<p>
+                        </div>
+                        <div class = "col-3">
                         <a href="https://www.facebook.com/tanila.yvette"><i class="fab fa-facebook-square"></i></a>
                         <a href="https://www.linkedin.com/feed/"><span><i class="fab fa-linkedin"></i></span></a>
+                      </div>
+                      </footer>
                     </div>
                 </div>
             
                 
-               
-            
-
-
-
 
             <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script>
+//ex.1o
+  //console.log(albumDetails);
+  function albumInfo (){
+    const albumDetails = document.querySelectorAll('.details');
+    albumDetails.forEach(album => {
+     console.log (album.innerText)
+
+    })
+
+  }
+  let picture = document.querySelectorAll(".imy")
+  for(let i = 0; i<picture.length;i++){
+    picture[i]
+  }
+
+  picture.onclick = albumInfo()
+  window.onload = albumInfo()
+
+
+
+  //ex 11
+  
+  window.onload = function addButton(){
+  let button = document.createElement('button')
+  let album = document.querySelector('#album')
+  let favorite = document.querySelector('#favoriteAlbum')
+  let cover = document.querySelector('#collection')
+  let foot= document.querySelector('#footer')
+  album.appendChild(button)
+  favorite.appendChild(button)
+  cover.appendChild(button)
+  foot.appendChild(button)
+  if(button){
+    album.style.visibility = visible;
+    favorite.style.visibility = visible
+    cover.style.visibility = visible
+    foot.style.visibility= visible
+  }else{
+
+    album.style.visibility = none;
+    favorite.style.visibility = none;
+    cover.style.visibility = none;
+    foot.style.visibility= none;
+  }
+  }
+  button.onclick = addButton()
+
+  //ex 12
+  let newElement = document.createElement('form')
+  let foot = document.querySelector
+
+</script>
     
 </body>
 </html>
